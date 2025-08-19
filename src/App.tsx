@@ -24,11 +24,17 @@ function App() {
       </header>
 
       <div className='w-full flex flex-col items-center mt-40 px-8'>
+        <div className="bg-amber-300 w-[320px] h-20 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+        <div className="bg-amber-300 w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+        <div className="bg-amber-300 w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+        <div className="bg-amber-300 w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+      </div>
+      {/* <div className='w-full flex flex-col items-center mt-40 px-8'>
         <div className="bg-[url('./assets/1_PosterImage.png')] bg-cover bg-center w-[320px] h-20 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
         <div className="bg-[url('./assets/2_PosterImage.png')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
         <div className="bg-[url('./assets/3-1_PosterImage.png')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
         <div className="bg-[url('./assets/4_PosterImage.png')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
-      </div>
+      </div> */}
 
       <div className='w-full flex flex-col mt-28 mb-9 px-8 items-center md:items-start md:px-8 md:justify-between md:flex-row lg:px-32'>
         <div className='flex flex-col w-64 xl:w-[440px]'>
