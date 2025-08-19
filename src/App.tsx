@@ -10,26 +10,27 @@ import dede from './assets/dede@2x.png'
 
 function App() {
   return (
-    <div className="flex flex-col items-center bg-[url('./assets/mundo@2x.png')] bg-no-repeat bg-[center_top_70px] bg-[length:50%]">
+    <div className="flex flex-col items-center bg-[url('./assets/mundo@2x.png')] bg-no-repeat bg-[center_top_70px] bg-[length:100%] md:bg-[length:60%]">
       <header className="w-full flex items-center px-8 h-14 text-white fixed bg-white/20 backdrop-blur-md lg:px-32">
-        <img src={logo} className="absolute w-20 left-8 top-10 lg:w-40 lg:top-4 lg:left-32"/>
+        <img src={logo} className="absolute w-20 left-8 top-10 md:w-32 lg:w-40 lg:top-1 lg:left-32"/>
         <div className="flex items-center justify-center m-auto gap-1 truncate uppercase font-semibold">
           <MdOutlineKeyboardDoubleArrowRight className='text-[#ED8C00] w-5 h-5'/>
           <span>a melhor comunidade de cs2</span>
           <MdKeyboardDoubleArrowLeft className='text-[#ED8C00] w-5 h-5'/>
         </div>
-        <a href='https://instagram.com' target='_blank' className="absolute flex items-center justify-center w-10 h-10 bg-[#ED8C00] rounded-full right-8 top-12 lg:w-16 lg:h-16 lg:top-8 lg:right-32">
-          <FaInstagram className='text-[#1F1E18] w-4 h-4 lg:w-9 lg:h-9'/>
+        <a href='https://instagram.com' target='_blank' className="absolute flex items-center justify-center w-10 h-10 bg-[#ED8C00] rounded-full right-8 top-12 md:w-12 md:h-12 lg:w-16 lg:h-16 lg:top-8 lg:right-32">
+          <FaInstagram className='text-[#1F1E18] w-4 h-4 md:w-6 md:h-6 lg:w-9 lg:h-9'/>
         </a>
-      </header>5
+      </header>
 
       <div className='w-full flex flex-col items-center mt-40 px-8'>
-        <div className='w-full h-36 bg-[#d3d3d3] md:w-[75%] lg:w-[500px]'></div>
-        <div className='w-full h-36 bg-[#d3d3d3] mt-12 md:w-[75%] lg:w-[500px]'></div>
-        <div className='w-full h-36 bg-[#d3d3d3] mt-12 md:w-[75%] lg:w-[500px]'></div>
+        <div className="bg-[url('./assets/1_PosterImage.png')] bg-cover bg-center w-[320px] h-20 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+        <div className="bg-[url('./assets/2_PosterImage.png')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+        <div className="bg-[url('./assets/3-1_PosterImage.png')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+        <div className="bg-[url('./assets/4_PosterImage.png')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
       </div>
 
-      <div className='w-full flex flex-col mt-20 mb-9 px-8 items-center md:items-start md:px-8 md:justify-between md:flex-row lg:px-32'>
+      <div className='w-full flex flex-col mt-28 mb-9 px-8 items-center md:items-start md:px-8 md:justify-between md:flex-row lg:px-32'>
         <div className='flex flex-col w-64 xl:w-[440px]'>
           <h1 className='flex justify-center bg-[#ED8C00] text-[#1F1E18] p-3 font-bold text-3xl lg:text-4xl xl:text-6xl'>Nossas Lojas</h1>
           <div className='flex flex-row w-full justify-between mt-6'>
