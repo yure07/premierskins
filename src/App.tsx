@@ -18,16 +18,35 @@ function App() {
           <span>a melhor comunidade de cs2</span>
           <MdKeyboardDoubleArrowLeft className='text-[#ED8C00] w-5 h-5'/>
         </div>
-        <a href='https://instagram.com' target='_blank' className="absolute flex items-center justify-center w-10 h-10 bg-[#ED8C00] rounded-full right-8 top-12 md:w-12 md:h-12 lg:w-16 lg:h-16 lg:top-8 lg:right-32">
+        <a href='https://instagram.com/mundoskinscs' target='_blank rel="noopener noreferrer"' className="absolute flex items-center justify-center w-10 h-10 bg-[#ED8C00] rounded-full right-8 top-12 md:w-12 md:h-12 lg:w-16 lg:h-16 lg:top-8 lg:right-32">
           <FaInstagram className='text-[#1F1E18] w-4 h-4 md:w-6 md:h-6 lg:w-9 lg:h-9'/>
         </a>
       </header>
 
       <div className='w-full flex flex-col items-center mt-40 px-8'>
-        <div className="bg-[url('./assets/1.gif')] bg-cover bg-center w-[320px] h-20 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
-        <div className="bg-[url('./assets/2.gif')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
-        <div className="bg-[url('./assets/3.gif')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
-        <div className="bg-[url('./assets/4.gif')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"></div>
+        <a 
+          href='https://chat.whatsapp.com/GsZVqPjcstlJz6P6ONl2Oe?mode=ac_t'
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="bg-[url('./assets/1.gif')] bg-cover bg-center w-[320px] h-20 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"/>
+        <a
+          href='https://chat.whatsapp.com/J65Pn2BqFUrEpk3XOSQfIB' 
+          target='_blank'
+          rel='noopener noreferrer'
+          className="bg-[url('./assets/2.gif')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"
+        />
+        <a 
+          href='https://instagram.com/mundoskinscs'
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-[url('./assets/3.gif')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"
+        />
+        <a
+          href='https://chat.whatsapp.com/GejbmoawPSiDfqUHEvzen5?mode=ac_t' 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-[url('./assets/4.gif')] bg-cover bg-center w-[320px] h-20 mt-12 md:w-[500px] md:h-32 lg:w-[600px] lg:h-36"
+        />
       </div>
 
       <div className='w-full flex flex-col mt-28 mb-9 px-8 items-center md:items-start md:px-8 md:justify-between md:flex-row lg:px-32'>
@@ -53,7 +72,15 @@ function App() {
 
         <div className='flex flex-col w-64 md:w-80 lg:w-[480px] mt-16 md:mt-0'>
           <h1 className='flex justify-center bg-[#ED8C00] w-64 lg:w-80 p-3 font-bold text-3xl text-[#1F1E18] lg:text-4xl xl:text-6xl xl:w-[440px]'>Quem somos?</h1>
-          <p className='text-[#d3d3d3] mt-4 xl:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed mollis sapien. Donec placerat felis lacus, vel venenatis purus venenatis ac. Sed non porttitor eros, eget lacinia massa. Integer imperdiet eu tortor eu blandit. Duis eget accumsan velit, eu posuere nunc. Nam pellentesque erat et urna tincidunt, feugiat auctor urna tincidunt.</p>
+          <p className='text-[#d3d3d3] mt-4 xl:text-lg'>
+            <span className='font-bold xl:text-xl'>Somos quatro das maiores lojas de skins de CS2 no Brasil — Premier Skins, Mydi Skins, Dedé Skins e Ary Store.</span> <br/>
+            Com vários anos de experiência e <span className='font-bold'>milhares de negociações bem-sucedidas</span>, construímos <span className='font-bold'>reputação sólida</span> e reconhecimento em todas as redes, 
+            somando <span className='font-bold'>milhares de avaliações positivas</span>. Agora unimos forças para criar a melhor e mais confiável comunidade de CS2, onde jogadores podem <span className='font-bold'>COMPRAR , VENDER</span> e <span className='font-bold'>TROCAR</span> skins 
+            com total segurança e praticidade. <br/>
+            <span className='text-sm italic'>
+              Antes de negociar qualquer item, procure saber como funciona o grupo, as regras e as dicas para não ser enganado. Qualquer coisa fale com um adm.    
+            </span>
+          </p>
         </div>
       </div>
 
