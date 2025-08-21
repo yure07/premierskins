@@ -12,7 +12,9 @@ function App() {
   return (
     <div className="flex flex-col items-center bg-[url('./assets/mundo@2x.png')] bg-no-repeat bg-[center_top_70px] bg-[length:100%] md:bg-[length:60%]">
       <header className="w-full flex items-center px-8 h-14 text-white fixed bg-white/20 backdrop-blur-md lg:px-32">
-        <img src={logo} className="absolute w-20 left-8 top-10 md:w-32 lg:w-40 lg:top-1 lg:left-32"/>
+        <a href="https://chat.whatsapp.com/Lq8aMTGUCZOB71zj6bnU0I" target="_blank" rel="noopener noreferrer" >
+          <img src={logo} className="absolute w-20 left-8 top-10 md:w-32 lg:w-40 lg:top-1 lg:left-32"/>
+        </a>
         <div className="flex items-center justify-center m-auto gap-1 truncate uppercase font-semibold">
           <MdOutlineKeyboardDoubleArrowRight className='text-[#ED8C00] w-5 h-5'/>
           <span>a melhor comunidade de cs2</span>
